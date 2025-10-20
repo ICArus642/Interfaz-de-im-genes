@@ -2,7 +2,7 @@
 proyecto para editor de imagenes
 
 
-# Proyecto de Procesamiento Digital de Imágenes 🧠📷
+# Proyecto de Procesamiento Digital de Imágenes
 
 Este proyecto implementa una **interfaz gráfica en Python (Tkinter)** que permite aplicar distintas transformaciones y análisis a imágenes, utilizando una librería personalizada llamada **Libimg**.
 
@@ -10,11 +10,11 @@ Incluye operaciones de brillo, contraste, rotación, recorte interactivo, zoom, 
 
 ---
 
-## 🚀 Requisitos
+## Requisitos
 
 Asegúrate de tener instalado **Python 3.8 o superior**.
 
-### 📦 Librerías necesarias
+### Librerías necesarias
 
 Instálalas ejecutando en tu terminal:
 
@@ -22,7 +22,7 @@ Instálalas ejecutando en tu terminal:
 pip install pillow numpy matplotlib
 ```
 
-📂 Proyecto_Procesamiento_Imagenes
+ Proyecto_Procesamiento_Imagenes
 │
 ├── Clase9.py              # Archivo principal (interfaz gráfica)
 ├── Libimg.py              # Librería personalizada de transformaciones
@@ -32,21 +32,21 @@ pip install pillow numpy matplotlib
 
 python Clase9.py
 
-## 🖱️ Uso de la Interfaz Gráfica
+##  Uso de la Interfaz Gráfica
 
 La aplicación está diseñada para ser intuitiva y fácil de usar.  
 A continuación se describe la función de cada control disponible en la ventana principal:
 
 ---
 
-### 🖼️ 1. Abrir imagen
+###  1. Abrir imagen
 - **Botón:** `Abrir imagen...`  
 - Permite seleccionar una imagen desde tu equipo en formatos como `.jpg`, `.png`, `.bmp`, `.gif`, `.tiff`, etc.  
 - La imagen se carga automáticamente y se muestra en el visor principal.
 
 ---
 
-### 🌞 2. Control de brillo
+###  2. Control de brillo
 - **Control:** Deslizador horizontal (slider)  
 - Ajusta el brillo de la imagen en tiempo real.  
 - Valores negativos oscurecen la imagen, positivos la aclaran.  
@@ -54,8 +54,7 @@ A continuación se describe la función de cada control disponible en la ventana
 
 ---
 
-### 🎨 3. Canales RGB
-- **Controles:** Tres casillas de verificación:  
+### Controles:** Tres casillas de verificación:  
   - `Rojo`  
   - `Verde`  
   - `Azul`  
@@ -65,7 +64,7 @@ A continuación se describe la función de cada control disponible en la ventana
 
 ---
 
-### 🌈 4. Transformaciones de contraste
+### 4. Transformaciones de contraste
 - **Botones:**
   - `Contraste logarítmico`  
   - `Contraste exponencial`
@@ -74,14 +73,14 @@ A continuación se describe la función de cada control disponible en la ventana
 
 ---
 
-### 🔄 5. Rotación de imagen
+### 5. Rotación de imagen
 - **Botón:** `Rotar imagen`  
 - Solicita un ángulo (en grados) e imprime la imagen rotada.  
 - El ángulo puede ser positivo (rotación horaria) o negativo (antihoraria).
 
 ---
 
-### 🔍 6. Zoom y recorte
+###  6. Zoom y recorte
 - **Botón:** `Zoom`  
   Amplía una zona de la imagen definida por coordenadas o área preestablecida.  
 - **Botón:** `Recorte interactivo`  
@@ -90,14 +89,14 @@ A continuación se describe la función de cada control disponible en la ventana
 
 ---
 
-### 📊 7. Histograma
+###  7. Histograma
 - **Botón:** `Mostrar histograma`  
 - Calcula y grafica la distribución de niveles de intensidad por canal (R, G, B o escala de grises).  
 - Se muestra una ventana emergente con las curvas correspondientes.
 
 ---
 
-### 🧩 8. Fusión de imágenes
+###  8. Fusión de imágenes
 - **Botón:** `Fusionar imágenes`  
   - Solicita una segunda imagen y combina ambas con un nivel de transparencia ajustable (`alpha`).  
 - **Botón:** `Fusión ecualizada`  
@@ -105,7 +104,7 @@ A continuación se describe la función de cada control disponible en la ventana
 
 ---
 
-### 💡 9. Operaciones básicas
+###  9. Operaciones básicas
 - **Botones:**
   - `Negativo` → Invierte los colores.  
   - `Escala de grises` → Convierte la imagen a tonos de gris.  
@@ -113,24 +112,24 @@ A continuación se describe la función de cada control disponible en la ventana
 
 ---
 
-### 🧬 10. Extracción de capas
+###  10. Extracción de capas
 - **Botones:**
   - `Extraer RGB` → Muestra las capas Roja, Verde y Azul como imágenes separadas.  
   - `Extraer CMYK` → Genera las capas Cian, Magenta, Amarillo y Negro (modo de impresión).
 
 ---
 
-### 🔚 11. Cierre
+###  11. Cierre
 - Para cerrar la aplicación, simplemente cierra la ventana principal o presiona `Alt + F4`.
 
 ---
 
-## 🎯 Consejos de uso
+##  Consejos de uso
 
 - Todas las transformaciones aplican directamente sobre la imagen cargada.  
 - Si deseas recuperar
 
-## 🧠 Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - Python 3.9+
 - Tkinter – Interfaz gráfica.
@@ -138,7 +137,7 @@ A continuación se describe la función de cada control disponible en la ventana
 - Pillow (PIL) – Carga y visualización (solo cuando se usa).
 - Matplotlib – Gráficas de histograma.
 
-👨‍💻 Autor
+ Autor
 
 Jonathan Muñoz Jimenez — Computación Gráfica (2025)
 Universidad Tecnologica de Pereira
